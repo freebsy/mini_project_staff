@@ -27,13 +27,13 @@
 	Religion religion = null;
 	
 %>
-<form action="<%= request.getContextPath() %>/staff/staffInsertAction.jsp" method="post">
-	<table border="1">
+<form action="<%= request.getContextPath() %>/StaffInsertAction" method="post">
+	<table border="1" style="width:70%">
 		<tr>
 			<td>이름</td>
 			<td><input type="text" name="name"></td>
 			<td>주민번호</td>
-			<td><input type="text" name="sn1" size="10px">-<input type="text" name="sn2" size="10px"></td>
+			<td><input type="text" name="sn1" size="10px">-<input type="password" name="sn2" size="10px"></td>
 			<td>종교</td>
 			<td>
 				<select name="religionNo">
@@ -92,5 +92,7 @@
 		
 	</table>
 </form>
+
+	
 </body>
 </html>

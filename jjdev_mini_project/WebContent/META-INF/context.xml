@@ -2,11 +2,10 @@
      <Resource name="jdbc/OracleDB" 
          auth="Container"
          type="javax.sql.DataSource" 
-         username="jjdev" 
+         username="root" 
          password="java0000"
-         driverClassName="oracle.jdbc.OracleDriver"
-         factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
-         url="jdbc:oracle:thin:@localhost:1521:XE"
+         driverClassName="com.mysql.jdbc.Driver"
+         url="jdbc:mysql://localhost:3306/jjdev?useUnicode=true&amp;characterEncoding=euckr"
          maxActive="500" 
          maxIdle="100"/>  
  </Context>

@@ -8,6 +8,7 @@
 </head>
 <body>
 
-	<a href="<c:url value="/staff/staffInsert.jsp"/>">staff insert</a>
+	<a href="<c:url value="/StaffInsertAction"/>">staff insert</a>
+	<a href="<c:url value="/StaffSearchAction"/>">staff list</a>
 </body>
 </html>
